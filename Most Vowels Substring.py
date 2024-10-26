@@ -30,6 +30,10 @@ class Solution:
     def substring_with_most_vowels(s, k):
         #create a set with all vowels for O(1) checking
         vowel = {'a','e','i','o','u','A','E','I','O','U'}
+
+        #we can do this in a better way by creating a function that checks if a character is a vowel
+        # def is_vowel(char):
+        #    return char in "AEIOUaeiou" --> this will return true or false
         
         '''
         loop through the first k values in the string s
