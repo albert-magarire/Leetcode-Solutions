@@ -1,29 +1,58 @@
 '''
 THE PROBLEM:
-    Given a String s, write a function to find the maximum number of vowels in a substring of size k
+    Given a m * n matrix of ones and zeros, return how many square submatrices have all ones.
+        
+        Example 1:
+        Input: matrix =
+        [
+          [0,1,1,1],
+          [1,1,1,1],
+          [0,1,1,1]
+        ]
+        Output: 15
+        Explanation: 
+        There are 10 squares of side 1.
+        There are 4 squares of side 2.
+        There is  1 square of side 3.
+        Total number of squares = 10 + 4 + 1 = 15.
+        
+        Example 2:
+        Input: matrix = 
+        [
+          [1,0,1],
+          [1,1,0],
+          [1,1,0]
+        ]
+        Output: 7
+        Explanation: 
+        There are 6 squares of side 1.  
+        There is 1 square of side 2. 
+        Total number of squares = 6 + 1 = 7.
 '''
 
 '''
 THOUGHT PROCESS:
-    A general solution would be to create a new array to store the substrings
-    Create a set with vowels
-    Iterate through the first k values in the string
-    Everytime you encounter a vowel, then increment counter by 1
-    Then iterate again, but after moving the k values to the right by 1(including the next value and dropping the first value) 
-    Check if the total of vowels and compare with the current max
-    If the total is greater than max, then update max, else move on to the next iteration
-    Store the substring with the maximum number of vowels
+(This is basically just a brute force solution)
+    We are going to iterate over each element in the matrix, treating it as the top left corner of the sub-matrix
+    If matrix[i][j] == 1, then increment submatrix_sum by 1
+    Next check if 
+        [i+n][j], 
+        [i][j+n], 
+        [i+n][j+n] 
+        are all equal to 1, starting with n = 1,
+     Every time we have a square submatrix, then we have to remember it and then n increases by 1 in a recursive function
+     It is important to limit the values that n can have to avoid going out of bounds IndexError
+     Base Cases:
+         What if all values are 1s
+         What if none of the values are 1s
+         Is the array length fixed
+     How are we going to store/remember the submatrices that we come up with
     
 '''
 
 '''
 CHOSEN SOLUTION:
-    To solve the problem, I have decided to use a sliding window technique
-    Initialize a window of size k
-    Count number of vowels in the window
-    Store that as max, and slide the window across the string(add new character and drop the old character)
-    Track the number of vowels
-    Update the count and max
+    I couldn't think of anything better, however after looking it up on ChatGPT, you can use Dynamic Programming(which I haven't studied yet)
     
 '''
 class Solution:
