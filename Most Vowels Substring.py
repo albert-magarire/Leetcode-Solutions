@@ -18,7 +18,7 @@ THOUGHT PROCESS:
 
 '''
 CHOSEN SOLUTION:
-    To solve the problem, I have decided to use a sliding window technique
+    To solve the problem, I have decided to use a sliding window technique - This solution worked actually ✅
     Initialize a window of size k
     Count number of vowels in the window
     Store that as max, and slide the window across the string(add new character and drop the old character)
