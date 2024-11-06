@@ -28,7 +28,7 @@ CHOSEN SOLUTION:
 '''
 class Solution:
     def substring_with_most_vowels(s, k):
-        #create a set with all vowels for O(1) checking
+        #create a set with all vowels for O(1) checkings
         vowel = {'a','e','i','o','u','A','E','I','O','U'}
 
         #we can do this in a better way by creating a function that checks if a character is a vowel
