@@ -6,7 +6,7 @@ THE PROBLEM:
 '''
 THOUGHT PROCESS:
     A general solution would be to create a new array to store the substrings
-    Create a set with vowels
+    Create a set with all vowels
     Iterate through the first k values in the string
     Everytime you encounter a vowel, then increment counter by 1
     Then iterate again, but after moving the k values to the right by 1(including the next value and dropping the first value) 
