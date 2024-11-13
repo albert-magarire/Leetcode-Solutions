@@ -8,7 +8,7 @@ THOUGHT PROCESS:
     A general solution would be to create a new array to store the substrings
     Create a set with all vowels for comparison
     Iterate through the first k values in the string
-    Everytime you encounter a vowel, then increment counter by 1
+    Every time you encounter a vowel, then increment counter by 1
     Then iterate again, but after moving the k values to the right by 1(including the next value and dropping the first value) 
     Check if the total of vowels and compare with the current max
     If the total is greater than max, then update max, else move on to the next iteration
