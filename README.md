@@ -4,5 +4,5 @@ In this repository, I have attached all the solutions that I made to the leetcod
 ## For Each Question:
 I included the problem, my thinking process (both as comments) and the final code solution
 
-## Time and Space Complexities
+## Time and Space Complexity
 I have also calculated the space and time complexity analysis at the end of each files
