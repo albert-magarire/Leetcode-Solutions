@@ -12,7 +12,7 @@ THOUGHT PROCESS:
     Then iterate again, but after moving the k values to the right by 1(including the next value and dropping the first value) 
     Check if the total of vowels and compare with the current max
     If the total is greater than max, then update max, else move on to the next iteration
-    Store the substring with the maximum number of vowels
+    Store the substring with the maximum number of vowelss
     
 '''
 
