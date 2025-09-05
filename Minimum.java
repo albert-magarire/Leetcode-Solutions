@@ -5,7 +5,7 @@ public class Minimum{
         Scanner input = new Scanner(System.in);
         ArrayList<Integer> list = new ArrayList<>();
         System.out.println("Enter elements. Use # to stop: ");
-        while(input.nextInt() != '#'){
+        while(input.nextInt() != '#'){ //
             list.add(input.nextInt());
         }
 
