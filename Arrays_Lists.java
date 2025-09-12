@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 public class Arrays_Lists{
     public static void main(String[] args){
-        /*
+        /*more notes need to be added about how to make the class
          * Static Arrays
          * - Fixed size
          * - Can hold primitives and objects
