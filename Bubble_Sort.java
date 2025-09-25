@@ -16,7 +16,7 @@ public class Bubble_Sort {
             System.out.print(num + " ");
         }
 
-        bubbleSort(arr); // call the bubble sort function
+        bubbleSort(arr); // call the bubble sort function recursively
     }
 
         
