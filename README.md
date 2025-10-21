@@ -1,6 +1,4 @@
-Here's a comprehensive README template for your LeetCode solutions repository. You can customize it with your own information:
 
-```markdown
 # LeetCode Solutions
 
 ![Language](https://img.shields.io/badge/language-Java%20%7C%20Python-orange.svg)
@@ -12,7 +10,6 @@ This repository contains my solutions to LeetCode problems, implemented in both 
 
 ## 🏗️ Repository Structure
 
-```
 leetcode-solutions/
 │
 ├── problems/
@@ -34,7 +31,6 @@ leetcode-solutions/
 ├── notes/
 ├── LICENSE
 └── README.md
-```
 
 ## 📊 Progress Tracking
 
