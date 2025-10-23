@@ -1,8 +1,8 @@
 
 # LeetCode Solutions
 
-![Languages](https://img.shields.io/badge/language-Java%20%7C%20Python-orange.svg)
-![LeetCode](https://img.shields.io/badge/Platform-LeetCode-blue.svg)
+(https://img.shields.io/badge/language-Java%20%7C%20Python-orange.svg)
+(https://img.shields.io/badge/Platform-LeetCode-blue.svg)
 
 ## 📝 Overview
 
