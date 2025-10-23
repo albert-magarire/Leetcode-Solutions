@@ -16,13 +16,6 @@ This repository contains my solutions to LeetCode problems, implemented in both 
 - **Medium:** [63]
 - **Hard:** [12]
 
-### Recent Solutions
-| # | Problem | Difficulty | Java | Python | Tags |
-|---|---------|------------|------|--------|------|
-| 1 | Two Sum | Easy | ✅ | ✅ | Array, Hash Table |
-| 2 | Add Two Numbers | Medium | ✅ | ✅ | Linked List, Math |
-| 3 | Longest Substring Without Repeating Characters | Medium | ✅ | ✅ | String, Sliding Window |
-
 ## 🚀 How to Use
 
 ### Running Java Solutions
