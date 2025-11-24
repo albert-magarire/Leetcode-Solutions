@@ -4,14 +4,6 @@
 
 This repository contains my solutions to LeetCode problems, implemented in both Java and Python. The goal is to practice problem-solving skills, explore different approaches, and maintain a growing collection of efficient algorithms and data structure implementations.
 
-## 📊 Progress Tracking
-
-### Solved Problems
-- **Total Solved:** [132]
-- **Easy:** [57]
-- **Medium:** [63]
-- **Hard:** [12]
-
 ## 🚀 How to Use
 
 ### Running Java Solutions
